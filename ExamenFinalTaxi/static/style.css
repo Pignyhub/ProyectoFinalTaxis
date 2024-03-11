@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#pagina {
+    display: flex;
+    height: 100vh;
+}
+
+#sidebar {
+    width: 350px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    background-color: #eebb30;
+    color:#eebb30;
+}
+
+
+#headerLista {
+    background-color: #eebb30;
+    color: #2225db;
+    text-align: center;
+    position:sticky;
+    top:0px;
+}
+
+#listaParadas {
+    list-style: none;
+    padding: 0;
+    
+}
+
+#listaParadas li {
+    background-color: #2225db;
+    border-bottom: 1px solid #eebb30;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#listaParadas li:hover {
+    background-color: #eebb30;
+    color:#2225db;
+}
+
+#miNombre{
+    position:absolute;
+    background-color: #2225db;
+    color:#eebb30;
+    width:210px;
+    height:80px;
+    margin-left:1650px;
+    margin-top: 20px;
+    padding:0;
+    z-index: 1000;
+    border: solid #eebb30;
+    border-radius: 15px;
+    padding-left:5px;
+    
+}
+
+#map {
+    flex: 1;
+}
